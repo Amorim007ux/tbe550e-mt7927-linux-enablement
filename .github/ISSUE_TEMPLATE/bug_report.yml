@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a reproducible problem
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: input
+    id: distro
+    attributes:
+      label: Distro
+      placeholder: Ubuntu 25.10
+    validations:
+      required: true
+  - type: input
+    id: kernel
+    attributes:
+      label: Kernel version
+      placeholder: 6.17.0-14-generic
+    validations:
+      required: true
+  - type: textarea
+    id: hw
+    attributes:
+      label: Hardware IDs
+      description: Include output of `lspci -nnk -s 04:00.0` and `lsusb | grep -i 0489:e116`
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Include relevant `dmesg -T` lines
+    validations:
+      required: true
