@@ -36,7 +36,7 @@ TOPICS_JSON="$(printf '%s' "$TOPICS" | awk -F, '
     for (i = 1; i <= NF; i++) {
       gsub(/^[[:space:]]+|[[:space:]]+$/, "", $i)
       if (length($i)) {
-        if (!first++) printf ","
+        if (count++) printf ","
         printf "\"%s\"", $i
       }
     }
@@ -62,8 +62,8 @@ do
   gh api --method PUT "$endpoint" >/dev/null 2>&1 || true
 done
 
-# Branch protection for main branch
-gh api \
+# Branch protection for main branch (best effort: may require paid plan for private repos)
+if ! gh api \
   --method PUT \
   -H "Accept: application/vnd.github+json" \
   "/repos/${OWNER}/${REPO}/branches/${BRANCH}/protection" \
@@ -90,6 +90,9 @@ gh api \
   "allow_fork_syncing": true
 }
 JSON
+then
+  echo "Warning: branch protection could not be applied (likely plan/visibility limitation)."
+fi
 
 # Optional: protect tags from accidental move/delete (best effort)
 # gh api --method POST "/repos/${OWNER}/${REPO}/rulesets" ...
